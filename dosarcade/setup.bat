@@ -1,0 +1,2 @@
+takatron config
+

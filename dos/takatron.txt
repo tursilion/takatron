@@ -1,0 +1,206 @@
+TAKATRON: 2098
+Release version 1.0 - July 5, 1998
+Windows Released 7 Dec 99
+
+(c)1998 by M.Brent
+All rights not explicitly licensed to the end user are retained by the
+developer.
+
+This program may be freely distributed as long as the doc file is
+kept with the executable.
+
+This program requires VGA with 512k. A few cards are supported natively
+by the Allegro library, but you really want to have Vesa support. If your
+display doesn't work, SciTech's Display Doctor can fix everything up for
+you.
+
+The program requires DPMI services. Under Win95 you should be fine. Some
+people say NT works, but I've had no luck. Under DOS (forget 3.11), any
+DPMI server should work. CWSDPMI is a good free one.
+
+Minimal RAM? Good question... prolly at least 4 mb. :) While a 386 will
+run the software, you want a fast 486 or preferably Pentium to run it,
+cause I like using multiple display buffers. ;)
+
+There are a few optional and not recommended switches you can use below.
+
+Run Game:  takatron [switches]
+Switches do not use dashes unless indicated, arguments are separated by
+a space, as are all switches. Since these are intended for test purposes,
+and not for general use, there is no checking for valid numbers in those
+that require numbers. Illegal values may cause a crash.
+
+Current Command Line Switches
+!               - Use this to disable sound if the autodetect fails
+-greet          - Display greeting information instead of storyline ;)
+debug           - display bounding boxes used by collision routine
+always x        - all enemies (except 1 hyena) are type 'x', from 1-8
+cheat           - Simba is invincible. Enables F5 to reduce boss life to 1
+start x         - Start on level 'x', 1-50. If you start higher, no promises
+cycle           - Ensable color cycling (kinda ugly under Windows)
+config          - run configuration screen again
+noplasma        - disable plasma effects - much faster.
+plasmastep x    - set plasmastep to 'x'. Default is 3. 1-10 recommended,
+                  lower numbers are slower and give shorter trails,
+                  higher numbers run quicker but give longer trails.
+fps             - displays retrace counter. 3 or lower is running 100%.
+                  4 is borderline.
+[secret]        - a secret switch to play as Scar instead of Simba. Just a
+                  hack, mind you, but fun. :) It's revealed at the end
+                  of the final credits in the game. ;)
+[secret]        - another secret switch to play as another character.
+                  If you figure out Scar's, this one is easy to guess.
+seeallend       - see all the endings when you beat the game, not just
+                  the one you normally would. ;)
+
+Also, not a switch, and I don't remember when I added it, but 'F1' will save
+a screenshot called 'Takatron.pcx'. It will probably be badly sized, but
+it's just for samples anyway. ;)
+
+HISTORY
+
+2 Feb 98
+-Added the rest of the title sequence, hi score table, 'fancy clear' and
+ rest of samples.
+
+13 feb 98
+-This project is still up in the air as to whether I'll finish it, but..
+added the Simba sprites... hit space to start a game, use the arrow keys
+to move around, and tap space to toggle between adult and cub Simba.
+(Graphics from the Genesis version of Lion King). Hit Control-Alt-End
+to exit.
+
+20 feb 98
+-And still up in the air. Simba now shoots, and random hyenas appear (but
+don't move).
+
+22 Mar 98
+-Well, I forget what's new, mostly tweaking and getting the graphics done.
+Now it's 'Q' to toggle cub/adult Simba, and space will lock the firing
+angle (or joystick).
+
+30 Mar 98
+-As of right now, game is playable. Only Hyenas and Obstacles appear, and
+there is no ending yet. (Level 50 will be last.) Simba grows up at level
+35, and music begins at level 45. Scar speaks after level 10. Most
+everything else is ready to be coded in. Some samples missing. Collision
+detection is wild, too, hafta tune that. Hyenas chase you. Everything
+can be shot. Joystick is the current medium preferred (keyboard may be
+slow if you have no joystick connected.) Life count and Game over work,
+but lives and score not displayed. Greet page working.
+
+22 Apr 98
+-Rewrote collision detect routine to be more flexible. It's almost perfectly
+accurate now, but still misses obstacles from time to time.
+Added 'debug' command argument to aid my debugging (right now just shows
+the bounding boxes used by the collision routine). Tons more graphics
+added but not a single pixel of them visible yet. Added to the greet page.
+Really, if you have the 30 Mar version, you don't need to download this
+update.
+
+2 May 98
+-New command - 'always x' will make all enemies into enemy number 'x',
+which should be from 1-8.
+-All enemies in place
+-Picking up lionesses works
+-All enemy features work
+-Most scoring in place
+-Most powerups in place
+-Hi-Score table works
+-Game is too damn hard for me to beat. ;)
+
+2 May 98 - second update (ooh!)
+-New command - 'cheat' (finally) makes you invincible. Not much use except
+for testing until the bosses are in, since it goes forever. I fully expect
+it would crash eventually... definately after level 100 if not before ;)
+No way to turn it off or die, so if it's on use control-alt-end to exit.
+(note: in my test - it crashed at level 75. But was well unplayable
+anyway ;) )
+-Added the missing samples, but the WOW sample for last lioness has to
+go, as soon as I decide what to replace it with
+-Picking up the last lioness now gives you 'hot bullets'... these bullets
+don't stop when they hit enemies! Lasts till end of round.
+-Adjusted the position of the love hearts so you can see them ;)
+
+5 May 98
+-Forgot to mention it, it went into the last release, but 'P' will
+pause the game (almost any time, actually ;) ) 'R' to resume.
+-New switch 'start x' selects the level to start at.
+-Jaguar boss for level 49 in place, but not finished yet
+-Made game a bit easier.. half the enemies. Level 48 was just murder. :)
+
+2 Jun 98
+-new switch 'nocycle' to disable color cycling (faster on slow PCs?)
+-added continue and 1up power ups
+-assorted bugfixes
+
+3 Jun 98
+-Kitus now time out after 10 buzzards each and chase you.. no more continuous
+ levels ;)
+-Powerups now time out, and they vanish if you die
+-Score for powerups, incrementing score for lionesses
+-If you don't have a takatron.cfg, it runs a simple setup program to create
+ it. You can also use the setup switch 'config' to change the setup.
+-Updated doc file to be more useful ;)
+-Added basic options menu for startup
+-Added config file
+
+4 Jun 98
+-Finished config menu
+-Corrected bugs in config file loader
+-Implemented 5 control methods (arrow keys/space, joystick/fire button,
+ joypad/4 buttons, arrows move/joystick fire, joystick move/arrows fire)
+ Firing is only continuous in keyboard or 1 button joystick mode.
+
+13 Jun 98
+-Finished Jaguar Boss
+-Few little bugfixes here and there
+-Still wondering about the life counter bug
+-Added display for picking up icons
+-Cameo appearance after destroying Jaguar boss
+-Boss reappears each level after 49 (that's cause the final boss isn't in)
+
+17 Jun 98
+-Added plasma-fade effect.
+-New switch 'noplasma' disables it. But it may   actually be a little
+faster than the old screen clear. Depending on your system. ;)
+-Fixed bug in Jaguar boss start - no more obstacles and enemies left over
+-Fixed bug where Scar's appearance could kill you
+-Fixed bug where you still die if you get a warp powerup before being hit
+
+18 Jun 98
+-Retrace counter for speed added - lower is better. 4 is maxxed out. Use
+switch 'fps' to activate
+-Added 'plasmastep' switch to control spacing of plasma effect
+
+4 July 98
+-added final boss - floating Scar head. Waiting for artist's permission to
+use it, though.
+-fixed a few minor bugs. Still one occasionally turning the screen blue?
+-Workaround for graphic glitches when boss appears
+-added support for wavetable digital simulated midi... it's not
+automatic like I thought it was anymore... well, now it is for
+Takatron, anyway. Just copy a compatible patches.dat. Note that if you
+have a patches.dat in the directory and it's not valid, you won't get any
+MIDI and maybe no Digital audio either. Be warned. :) But it sounds
+SOOOOO much better. :)
+
+5 July 98
+-Lots more bug fixes
+-Added some samples for final boss
+-Removed shadow sprites from Jaguar boss... if you run noplasma there will
+ be no trail now
+-Reversed drawing order so shots don't draw on top of bosses
+-If you use NOCYCLE, it waits for a VSYNC before setting colours used for
+ boss flashing, so try that if you get snow
+-If you press F5 in cheat mode, it will set all life counters to '1'. This
+ affects the Kitu for number of buzzards left to release, and of course the
+ life of the bosses. It must be 1, not zero, because boss deaths are detected
+ in the collision detect routine.
+-Added end routine and scroll credits with 4 cheesy endings. ;)
+-Added secret way to play as Scar, just a hack, the game is still the same,
+ but with his own two endings 
+-Added another secret character with a single ending... that's it, total 7
+ endings and 3 playable characters. It's not hard to guess. ;)
+-Added voices to Scar boss.. 'run' and 'run away!'
+-Added seeallend switch to see all endings in final scrolltext

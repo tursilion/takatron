@@ -1,0 +1,1 @@
+gcc -xlinker -Ttext -xlinker 80180000 loader.c -oloader.exe

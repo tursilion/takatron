@@ -1,0 +1,2 @@
+takatron.exe: takatron.c takatron.h pad.c pad.h
+	gcc takatron.c pad.c -otakatron.exe

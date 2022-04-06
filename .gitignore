@@ -1,0 +1,17 @@
+*.a
+*.A
+*.exe
+*.EXE
+pcc*
+PCC*
+*.o
+*.O
+*.PIF
+*.MS
+*.lst
+*.obj
+*.old
+*.ncb
+*.opt
+*.plg
+*.bak

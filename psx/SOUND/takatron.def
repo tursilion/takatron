@@ -1,0 +1,680 @@
+VabHdr
+	form = 'VABp'
+	ver = 0x7
+	id = 0
+        fsize = 0
+        ps = 28
+        ts = 28
+        vs = 28
+
+ProgAtr 0
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 1
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 2
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 3
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 4
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 5
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 6
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 7
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 8
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 9
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 10
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 11
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 12
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 13
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 14
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 15
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 16
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 17
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 18
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 19
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 20
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 21
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 22
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 23
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 24
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 25
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 26
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+ProgAtr 27
+        tones = 1
+        mvol = 127
+	mpan = 64
+
+VagAtr 0 0
+	prior = 0
+	mode = 4
+        vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+	prog = 0
+        vag = 0
+
+VagAtr 1 0
+	prior = 0
+	mode = 4
+        vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 1
+        vag = 1
+
+VagAtr 2 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+        min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 2
+        vag = 2
+
+VagAtr 3 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+        min = 0
+	max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 3
+        vag = 3
+
+VagAtr 4 0
+	prior = 0
+	mode = 4
+        vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 4
+        vag = 4
+
+VagAtr 5 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+        min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 5
+        vag = 5
+
+VagAtr 6 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+        min = 0
+	max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 6
+        vag = 6
+
+VagAtr 7 0
+	prior = 0
+	mode = 4
+        vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 7
+        vag = 7
+
+VagAtr 8 0
+	prior = 0
+	mode = 4
+        vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+        min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 8
+        vag = 8
+
+VagAtr 9 0
+	prior = 0
+	mode = 4
+        vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+        min = 0
+	max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 9
+        vag = 9
+
+VagAtr 10 0
+	prior = 0
+	mode = 4
+        vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 10
+        vag = 10
+
+VagAtr 11 0
+	prior = 0
+	mode = 4
+        vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+        min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 11
+        vag = 11
+
+VagAtr 12 0
+	prior = 0
+	mode = 4
+        vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+        min = 0
+	max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 12
+        vag = 12
+
+VagAtr 13 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 13
+        vag = 13
+
+VagAtr 14 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+        min = 0
+	max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 14
+        vag = 14
+
+VagAtr 15 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 15
+        vag = 15
+
+VagAtr 16 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+        min = 0
+	max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 16
+        vag = 16
+
+VagAtr 17 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 17
+        vag = 17
+
+VagAtr 18 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 18
+        vag = 18
+
+VagAtr 19 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 2
+	pbmax = 2
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 19
+        vag = 19
+
+VagAtr 20 0
+        prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 20
+        vag = 20
+
+VagAtr 21 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 2
+	pbmax = 2
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 21
+        vag = 21
+
+VagAtr 22 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 2
+	pbmax = 2
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 22
+        vag = 22
+
+VagAtr 23 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+	max = 127
+	pbmin = 2
+	pbmax = 2
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 23
+        vag = 23
+
+VagAtr 24 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+	max = 127
+	pbmin = 2
+	pbmax = 2
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 24
+        vag = 24
+
+VagAtr 25 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 0
+	pbmax = 0
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 25
+        vag = 25
+
+VagAtr 26 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center = 64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 2
+	pbmax = 2
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 26
+        vag = 26
+
+VagAtr 27 0
+	prior = 0
+	mode = 4
+	vol = 127
+	pan = 64
+        center =64
+        shift = 0
+	min = 0
+        max = 127
+	pbmin = 2
+	pbmax = 2
+	ar = 127
+        dr = 0
+        sr = 30
+        rr = 0
+        sl = 127
+        prog = 27
+        vag = 27
